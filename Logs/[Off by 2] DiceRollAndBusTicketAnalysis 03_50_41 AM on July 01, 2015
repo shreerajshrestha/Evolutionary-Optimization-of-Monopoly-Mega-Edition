@@ -1,0 +1,58 @@
+Average rents paid for Dice Roll followed by a Bus Ticket on 1000000 iterations
+03:50 AM on July 01, 2015
+
+GO - 391.80844
+Mediterranean Avenue - 395.504035
+Community Chest - 398.76479
+Baltic Avenue - 426.09832
+Arctic Avenue - 457.577465
+Income Tax - 479.894335
+Reading Railroad - 501.981605
+Massachusetts Avenue - 531.18615
+Oriental Avenue - 560.92959
+Chance - 578.51985
+Gas Company - 591.22409
+Vermont Avenue - 617.089085
+Connecticut Avenue - 641.67232
+Jail - 673.41052
+Auction - 707.476585
+Maryland Avenue - 746.33608
+St. Charles Place - 792.06785
+Electric Company - 836.959175
+States Avenue - 882.54935
+Virginia Avenue - 912.847575
+Pennsylvania Railroad - 931.392425
+St. James Place - 929.8172
+Community Chest - 932.96807
+Tennessee Avenue - 916.949005
+New York Avenue - 890.193825
+New Jersey Avenue - 881.6521525
+Free Parking - 904.50537
+Kentucky Avenue - 943.2460225
+Chance - 971.842535
+Indiana Avenue - 1021.0154125
+Illinois Avenue - 1087.3027
+Michigan Avenue - 1121.8234975
+Bus Ticket - 1115.3074325
+B. & O. Railroad - 1097.2223675
+Atlantic Avenue - 1060.1952925
+Ventnor Avenue - 1002.28735
+Water Works - 939.822025
+Marvin Gardens - 914.819625
+California Avenue - 913.23335
+Go to Jail - 926.8595625
+Pacific Avenue - 938.7037125
+South Carolina Avenue - 956.073325
+North Carolina Avenue - 931.903875
+Community Chest - 861.340525
+Pennsylvania Avenue - 772.6529
+Short Line - 658.9692
+Chance - 565.294175
+Birthday Gift - 480.357775
+Florida Avenue - 430.242215
+Park Place - 397.101545
+Luxury Tax - 376.10874
+Boardwalk - 383.70957
+
+Dump as list:
+[391.80844, 395.504035, 398.76479, 426.09832, 457.577465, 479.894335, 501.981605, 531.18615, 560.92959, 578.51985, 591.22409, 617.089085, 641.67232, 673.41052, 707.476585, 746.33608, 792.06785, 836.959175, 882.54935, 912.847575, 931.392425, 929.8172, 932.96807, 916.949005, 890.193825, 881.6521525, 904.50537, 943.2460225, 971.842535, 1021.0154125, 1087.3027, 1121.8234975, 1115.3074325, 1097.2223675, 1060.1952925, 1002.28735, 939.822025, 914.819625, 913.23335, 926.8595625, 938.7037125, 956.073325, 931.903875, 861.340525, 772.6529, 658.9692, 565.294175, 480.357775, 430.242215, 397.101545, 376.10874, 383.70957]

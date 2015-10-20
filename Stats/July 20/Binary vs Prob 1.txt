@@ -1,0 +1,324 @@
+07/19/2014 Iteration 1
+Evolution of Binary Population against Random Probabilistic Tournament Opponents.
+
+Generation =  0
+Best fitness =  346
+PE 1
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346]
+
+Generation =  1
+Best fitness =  347
+PE 0
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347]
+
+Generation =  2
+Best fitness =  342
+PE 1
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342]
+
+Generation =  3
+Best fitness =  344
+PE 0
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344]
+
+Generation =  4
+Best fitness =  361
+PE 0
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361]
+
+Generation =  5
+Best fitness =  358
+PE 0
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358]
+
+Generation =  6
+Best fitness =  360
+PE 1
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360]
+
+Generation =  7
+Best fitness =  349
+PE 0
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349]
+
+Generation =  8
+Best fitness =  346
+PE 0
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346]
+
+Generation =  9
+Best fitness =  349
+PE 1
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349]
+
+Generation =  10
+Best fitness =  360
+PE 0
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360]
+
+Generation =  11
+Best fitness =  349
+PE 1
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349]
+
+Generation =  12
+Best fitness =  352
+PE 0
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352]
+
+Generation =  13
+Best fitness =  358
+PE 0
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358]
+
+Generation =  14
+Best fitness =  354
+PE 1
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354]
+
+Generation =  15
+Best fitness =  355
+PE 1
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354, 355]
+
+Generation =  16
+Best fitness =  348
+PE 0
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354, 355, 348]
+
+Generation =  17
+Best fitness =  349
+PE 0
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354, 355, 348, 349]
+
+Generation =  18
+Best fitness =  353
+PE 0
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354, 355, 348, 349, 353]
+
+Generation =  19
+Best fitness =  350
+PE 0
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354, 355, 348, 349, 353, 350]
+
+Generation =  20
+Best fitness =  351
+PE 1
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354, 355, 348, 349, 353, 350, 351]
+
+Generation =  21
+Best fitness =  354
+PE 0
+LB 0
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354, 355, 348, 349, 353, 350, 351, 354]
+
+Generation =  22
+Best fitness =  346
+PE 0
+LB 1
+PK 1
+OE 1
+RD 1
+YW 1
+GN 1
+DB 1
+RR 1
+UY 1
+Fitness against random =  [346, 347, 342, 344, 361, 358, 360, 349, 346, 349, 360, 349, 352, 358, 354, 355, 348, 349, 353, 350, 351, 354, 346]

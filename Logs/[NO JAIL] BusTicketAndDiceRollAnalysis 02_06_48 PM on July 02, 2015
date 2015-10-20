@@ -1,0 +1,58 @@
+Average rents paid for Bus Ticket followed by a Dice Roll on 1000000 iterations
+02:06 PM on July 02, 2015
+
+GO - 1346.6308
+Mediterranean Avenue - 1345.47967
+Community Chest - 1346.73745
+Baltic Avenue - 1347.02698
+Arctic Avenue - 1346.71787
+Income Tax - 1347.08183
+Reading Railroad - 1346.02497
+Massachusetts Avenue - 1348.18389
+Oriental Avenue - 1346.8313
+Chance - 1345.83564
+Gas Company - 1345.89897
+Vermont Avenue - 1348.1136
+Connecticut Avenue - 1346.2551
+Jail - 1811.023135
+Auction - 1808.475835
+Maryland Avenue - 1809.169035
+St. Charles Place - 1808.01272
+Electric Company - 1808.95345
+States Avenue - 1810.61554
+Virginia Avenue - 1808.24546
+Pennsylvania Railroad - 1810.28406
+St. James Place - 1809.22236
+Community Chest - 1807.46289
+Tennessee Avenue - 1809.663885
+New York Avenue - 1806.61775
+New Jersey Avenue - 1808.216785
+Free Parking - 1855.299825
+Kentucky Avenue - 1856.9482
+Chance - 1855.112575
+Indiana Avenue - 1856.8354
+Illinois Avenue - 1851.31895
+Michigan Avenue - 1854.47695
+Bus Ticket - 1854.879975
+B. & O. Railroad - 1855.492
+Atlantic Avenue - 1854.4533
+Ventnor Avenue - 1854.228125
+Water Works - 1854.695975
+Marvin Gardens - 1856.0902
+California Avenue - 1854.494525
+Go to Jail - 784.79104
+Pacific Avenue - 785.40374
+South Carolina Avenue - 783.61148
+North Carolina Avenue - 783.85245
+Community Chest - 783.64464
+Pennsylvania Avenue - 784.20707
+Short Line - 784.65915
+Chance - 784.11659
+Birthday Gift - 783.87058
+Florida Avenue - 784.12863
+Park Place - 784.49106
+Luxury Tax - 784.60486
+Boardwalk - 783.71045
+
+Dump as list:
+[1346.6308, 1345.47967, 1346.73745, 1347.02698, 1346.71787, 1347.08183, 1346.02497, 1348.18389, 1346.8313, 1345.83564, 1345.89897, 1348.1136, 1346.2551, 1811.023135, 1808.475835, 1809.169035, 1808.01272, 1808.95345, 1810.61554, 1808.24546, 1810.28406, 1809.22236, 1807.46289, 1809.663885, 1806.61775, 1808.216785, 1855.299825, 1856.9482, 1855.112575, 1856.8354, 1851.31895, 1854.47695, 1854.879975, 1855.492, 1854.4533, 1854.228125, 1854.695975, 1856.0902, 1854.494525, 784.79104, 785.40374, 783.61148, 783.85245, 783.64464, 784.20707, 784.65915, 784.11659, 783.87058, 784.12863, 784.49106, 784.60486, 783.71045]

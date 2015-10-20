@@ -1,0 +1,236 @@
+import random
+import Simulation
+from math import ceil
+
+# Default game properties
+# seed = 99999
+seed = random.random()
+no_of_squares = 52
+
+
+no_of_turns_in_match = 500
+no_of_matches_in_tournament = 125
+no_of_tournaments = 100
+no_of_players_in_match = 4
+
+sample_size = no_of_matches_in_tournament * no_of_players_in_match
+
+
+# Parameters for the genetic algorithm
+population = []
+evolution = []
+fitness_score = []
+apex_threshold = 0.01
+mutability = 0.001
+optimality_constraint = 0.80
+
+# Initializing the Simulation for necessary parameters
+Simulation.set_players(no_of_players_in_match)
+Simulation.initialize_score_chart()
+Simulation.set_turns(no_of_turns_in_match)
+Simulation.set_pay_default_income_tax(1)
+Simulation.set_pay_out_of_jail(1)
+Simulation.randomize(seed)
+
+
+
+def initialize():
+
+    population = []
+
+    # Initializing the population and the fitness score table
+    for i in xrange(sample_size):
+        population.append(Simulation.generate_perceived_value_vector())
+
+    return population
+
+
+
+# Function that returns the total fitness point of a single tournament
+# through the whole population
+def fitness(population):
+
+    fitness_score = []
+    # Initializing the population and the fitness score table
+    for i in xrange(sample_size):
+        fitness_score.append(0)
+
+    for k in xrange(no_of_tournaments):
+
+        # Generate matches with random player groups
+        temp = list(population)
+        temp_index = [i for i in xrange(len(population))]
+
+        while len(temp) != 0:
+
+            players = []
+            index = []
+
+            for i in xrange(no_of_players_in_match):
+                ix = random.randint(0, len(temp) - 1)
+                players.append(temp.pop(ix))
+                index.append(temp_index.pop(ix))
+
+            score, rank = Simulation.play_match(players, no_of_players_in_match, no_of_turns_in_match)
+
+            for j in xrange(len(score)):
+                fitness_score[index[j]] += score[j]
+
+    return fitness_score
+
+
+
+# Helper function for reproduce() to choose a random subject based on its cumulative probability
+# @param        cumulative_probability
+# @return       chosen_index
+def choose(cumulative_probability):
+
+    # Find the index of the member with the smallest cumulative selection probability bigger than r
+    # Check each item in a loop until we find one that's bigger than r
+    chosen_index = 0
+    while cumulative_probability[chosen_index] < random.random():
+        chosen_index += 1
+
+    return chosen_index
+
+
+
+# Helper function for evolve(), returns population sorted by fitness and selection probabilities based on fitness scores
+# @parameter    population, fitness_scores
+# @return       sorted_population, selection_probability
+def sort(population, fitness_scores):
+
+    sorted_population = [x for (y, x) in sorted(zip(fitness_scores, population), reverse = True)]
+    sorted_fitness = sorted((fitness_scores), reverse = True)
+    selection_probability = [sorted_fitness[k] / float(sum(sorted_fitness)) for k in range(sample_size)]
+
+    return sorted_population, selection_probability
+
+
+
+# Helper function for reproductions(), crosses over two parents to produce two offsprings
+# @param        parent1, parent2
+# @return       offspring1, offspring2
+def crossover(parent1, parent2):
+
+    global no_of_squares
+
+    pivot = random.randint(1, no_of_squares - 2)
+
+    offspring1 = parent1[0 : pivot] + parent2[pivot : no_of_squares]
+    offspring2 = parent2[0 : pivot] + parent1[pivot : no_of_squares]
+
+    return offspring1, offspring2
+
+
+
+# Helper function for evolve() to reproduce next generation
+# @param        sorted_population, selection_probability
+# @param        offsprings
+def reproductions(sorted_population, selection_probability):
+
+    global apex_threshold
+    global sample_size
+
+    offsprings = []
+
+    cumulative_probability = [sum(selection_probability[0:k+1]) for k in range(len(selection_probability))]
+
+    # Loop until the rest of the population in filled
+    for i in range(len(population) - int(ceil(apex_threshold * sample_size)) + 1):
+        parent1 = sorted_population[choose(cumulative_probability)]
+        parent2 = sorted_population[choose(cumulative_probability)]
+
+        offspring1, offspring2 = crossover(parent1, parent2)
+        offsprings.append(offspring1)
+        offsprings.append(offspring2)
+
+    return offsprings
+
+
+
+# Helper function for evolve(), mutates the current population
+# @param none
+# @return
+def mutate(population):
+
+    global mutability, no_of_squares
+
+    temp_population = list(population)
+    for i in range(sample_size):
+        for j in range(no_of_squares):
+            if random.random() <= mutability:
+                temp_population[i][j] = Simulation.generate_random_perceived_value_for(j)
+
+    return temp_population
+
+
+
+# Generates the next generation from the population
+# @param        population
+# @return       next_generation
+def evolve(population):
+
+    global apex_threshold
+    global sample_size
+
+    fitness_scores = fitness(population)
+
+    sorted_population, selection_probability = sort(population, fitness_scores)
+
+    apex_population = sorted_population[0 : int(ceil(apex_threshold * sample_size))]
+    offsprings = reproductions(sorted_population, selection_probability)
+
+    next_generation = apex_population + offsprings
+    next_generation = next_generation[0 : sample_size]
+    next_generation = mutate(next_generation)
+
+    return next_generation
+
+
+
+# MAIN CODE START
+######################################################
+population = initialize()
+
+# print "Maximum Optimal Score", Simulation.score_chart[0] * no_of_tournaments, "\n"
+
+optimal = 0
+count = 1
+ixs = []
+while not (optimal):
+
+    # evolution.append(population)
+    scores = fitness(population)
+
+    # Print output and write to file
+    Simulation.print_board_with_val(scores, population[scores.index(max(scores))], count)
+    Simulation.print_board_with_val_to_file(scores, population[scores.index(max(scores))], count)
+
+    if max(scores) >= Simulation.score_chart[0] * no_of_tournaments * no_of_tournaments * optimality_constraint:
+        optimal = 1
+
+    count += 1
+
+
+'''
+scores = fitness(population)
+print scores
+print numpy.mean(scores)
+print numpy.median(scores)
+
+population = evolve(population)
+
+scores = fitness(population)
+print scores
+print numpy.mean(scores)
+print numpy.median(scores)
+
+population = evolve(population)
+
+scores = fitness(population)
+print scores
+print numpy.mean(scores)
+print numpy.median(scores)
+
+'''

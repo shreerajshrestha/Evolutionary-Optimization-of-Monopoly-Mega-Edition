@@ -1,0 +1,58 @@
+Average rents paid for Bus Ticket followed by a Dice Roll on 1000000 iterations
+02:20 PM on July 02, 2015
+
+GO - 784.20184
+Mediterranean Avenue - 790.75854
+Community Chest - 798.48534
+Baltic Avenue - 852.27466
+Arctic Avenue - 914.95719
+Income Tax - 959.27746
+Reading Railroad - 1004.82943
+Massachusetts Avenue - 1061.21189
+Oriental Avenue - 1121.15304
+Chance - 1156.10114
+Gas Company - 1184.27734
+Vermont Avenue - 1235.07627
+Connecticut Avenue - 1282.66839
+Jail - 1347.71673
+Auction - 1413.37736
+Maryland Avenue - 1494.04626
+St. Charles Place - 1586.39095
+Electric Company - 1672.85355
+States Avenue - 1764.7088
+Virginia Avenue - 1824.9204
+Pennsylvania Railroad - 1864.08025
+St. James Place - 1859.8628
+Community Chest - 1865.34556
+Tennessee Avenue - 1835.23925
+New York Avenue - 1782.73026
+New Jersey Avenue - 1763.781035
+Free Parking - 1808.563385
+Kentucky Avenue - 1884.98304
+Chance - 1944.71481
+Indiana Avenue - 2039.636465
+Illinois Avenue - 2174.57861
+Michigan Avenue - 2246.451875
+Bus Ticket - 2230.522825
+B. & O. Railroad - 2194.120825
+Atlantic Avenue - 2123.89633
+Ventnor Avenue - 2003.401775
+Water Works - 1876.770825
+Marvin Gardens - 1830.03105
+California Avenue - 1829.117875
+Go to Jail - 1854.75075
+Pacific Avenue - 1878.953425
+South Carolina Avenue - 1914.92245
+North Carolina Avenue - 1860.81865
+Community Chest - 1720.736
+Pennsylvania Avenue - 1543.72725
+Short Line - 1319.98215
+Chance - 1128.07355
+Birthday Gift - 958.31615
+Florida Avenue - 861.01138
+Park Place - 792.73103
+Luxury Tax - 752.28788
+Boardwalk - 768.14553
+
+Dump as list:
+[784.20184, 790.75854, 798.48534, 852.27466, 914.95719, 959.27746, 1004.82943, 1061.21189, 1121.15304, 1156.10114, 1184.27734, 1235.07627, 1282.66839, 1347.71673, 1413.37736, 1494.04626, 1586.39095, 1672.85355, 1764.7088, 1824.9204, 1864.08025, 1859.8628, 1865.34556, 1835.23925, 1782.73026, 1763.781035, 1808.563385, 1884.98304, 1944.71481, 2039.636465, 2174.57861, 2246.451875, 2230.522825, 2194.120825, 2123.89633, 2003.401775, 1876.770825, 1830.03105, 1829.117875, 1854.75075, 1878.953425, 1914.92245, 1860.81865, 1720.736, 1543.72725, 1319.98215, 1128.07355, 958.31615, 861.01138, 792.73103, 752.28788, 768.14553]

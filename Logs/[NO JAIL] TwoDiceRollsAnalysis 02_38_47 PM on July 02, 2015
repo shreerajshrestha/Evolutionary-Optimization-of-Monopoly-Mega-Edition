@@ -1,0 +1,58 @@
+Average rents paid for 2 consecutive dice rolls on 1000000 iterations
+02:38 PM on July 02, 2015
+
+GO - 1907.31651
+Mediterranean Avenue - 1964.88988
+Community Chest - 2024.61306
+Baltic Avenue - 2132.66351
+Arctic Avenue - 2258.12913
+Income Tax - 2366.75441
+Reading Railroad - 2478.98557
+Massachusetts Avenue - 2605.17118
+Oriental Avenue - 2733.78809
+Chance - 2830.16581
+Gas Company - 2911.13513
+Vermont Avenue - 3003.657275
+Connecticut Avenue - 3080.612575
+Jail - 3163.3066
+Auction - 3240.17202
+Maryland Avenue - 3330.40583
+St. Charles Place - 3429.342605
+Electric Company - 3546.74814
+States Avenue - 3673.188485
+Virginia Avenue - 3780.51623
+Pennsylvania Railroad - 3868.115925
+St. James Place - 3909.98136
+Community Chest - 3957.94155
+Tennessee Avenue - 3940.81896
+New York Avenue - 3886.34221
+New Jersey Avenue - 3842.796685
+Free Parking - 3855.783775
+Kentucky Avenue - 3884.497845
+Chance - 3896.3981
+Indiana Avenue - 3956.16899
+Illinois Avenue - 4051.29407
+Michigan Avenue - 4085.19243
+Bus Ticket - 4031.385275
+B. & O. Railroad - 3927.83559
+Atlantic Avenue - 3772.809105
+Ventnor Avenue - 3535.082605
+Water Works - 3287.390285
+Marvin Gardens - 3099.92386
+California Avenue - 2970.0282
+Go to Jail - 2881.32876
+Pacific Avenue - 2815.866185
+South Carolina Avenue - 2785.96909
+North Carolina Avenue - 2694.47806
+Community Chest - 2537.00284
+Pennsylvania Avenue - 2368.6244
+Short Line - 2153.04668
+Chance - 1989.11795
+Birthday Gift - 1858.69724
+Florida Avenue - 1797.9912
+Park Place - 1777.91027
+Luxury Tax - 1780.34845
+Boardwalk - 1843.71065
+
+Dump as list:
+[1907.31651, 1964.88988, 2024.61306, 2132.66351, 2258.12913, 2366.75441, 2478.98557, 2605.17118, 2733.78809, 2830.16581, 2911.13513, 3003.657275, 3080.612575, 3163.3066, 3240.17202, 3330.40583, 3429.342605, 3546.74814, 3673.188485, 3780.51623, 3868.115925, 3909.98136, 3957.94155, 3940.81896, 3886.34221, 3842.796685, 3855.783775, 3884.497845, 3896.3981, 3956.16899, 4051.29407, 4085.19243, 4031.385275, 3927.83559, 3772.809105, 3535.082605, 3287.390285, 3099.92386, 2970.0282, 2881.32876, 2815.866185, 2785.96909, 2694.47806, 2537.00284, 2368.6244, 2153.04668, 1989.11795, 1858.69724, 1797.9912, 1777.91027, 1780.34845, 1843.71065]

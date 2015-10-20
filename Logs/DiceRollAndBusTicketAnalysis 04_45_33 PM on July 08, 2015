@@ -1,0 +1,58 @@
+Average rents paid for Dice Rolls followed by a Bus Ticket on 1000000 iterations
+04:45 PM on July 08, 2015
+
+GO - 784.42351
+Mediterranean Avenue - 792.47019
+Community Chest - 798.80919
+Baltic Avenue - 851.62899
+Arctic Avenue - 915.36909
+Income Tax - 959.51383
+Reading Railroad - 1004.67892
+Massachusetts Avenue - 1062.06494
+Oriental Avenue - 1121.26015
+Chance - 1156.71398
+Gas Company - 1182.61215
+Vermont Avenue - 1235.69445
+Connecticut Avenue - 1282.34006
+Jail - 1347.24092
+Auction - 1415.10173
+Maryland Avenue - 1494.54486
+St. Charles Place - 1583.851
+Electric Company - 1673.05535
+States Avenue - 1761.5697
+Virginia Avenue - 1825.4484
+Pennsylvania Railroad - 1863.6006
+St. James Place - 1859.64535
+Community Chest - 1863.80103
+Tennessee Avenue - 1834.23329
+New York Avenue - 1780.15164
+New Jersey Avenue - 1762.21622
+Free Parking - 1807.41463
+Kentucky Avenue - 1865.022325
+Chance - 1900.45931
+Indiana Avenue - 1977.131375
+Illinois Avenue - 2092.213425
+Michigan Avenue - 2140.917575
+Bus Ticket - 2106.256745
+B. & O. Railroad - 2086.957805
+Atlantic Avenue - 2041.048455
+Ventnor Avenue - 1940.06715
+Water Works - 1835.02625
+Marvin Gardens - 1805.891275
+California Avenue - 1829.757075
+Go to Jail - 0
+Pacific Avenue - 1880.17795
+South Carolina Avenue - 1913.03515
+North Carolina Avenue - 1863.17275
+Community Chest - 1720.7533
+Pennsylvania Avenue - 1545.45745
+Short Line - 1317.52015
+Chance - 1128.41925
+Birthday Gift - 960.6398
+Florida Avenue - 860.71474
+Park Place - 792.693
+Luxury Tax - 751.86504
+Boardwalk - 767.32606
+
+Dump as list:
+[784.42351, 792.47019, 798.80919, 851.62899, 915.36909, 959.51383, 1004.67892, 1062.06494, 1121.26015, 1156.71398, 1182.61215, 1235.69445, 1282.34006, 1347.24092, 1415.10173, 1494.54486, 1583.851, 1673.05535, 1761.5697, 1825.4484, 1863.6006, 1859.64535, 1863.80103, 1834.23329, 1780.15164, 1762.21622, 1807.41463, 1865.022325, 1900.45931, 1977.131375, 2092.213425, 2140.917575, 2106.256745, 2086.957805, 2041.048455, 1940.06715, 1835.02625, 1805.891275, 1829.757075, 1880.17795, 1913.03515, 1863.17275, 1720.7533, 1545.45745, 1317.52015, 1128.41925, 960.6398, 860.71474, 792.693, 751.86504, 767.32606]

@@ -1,0 +1,50 @@
+Average rents paid for Bus Ticket followed by a Dice Roll on 1000000 iterations
+04:06 AM on July 01, 2015
+
+GO - 673.148595
+Mediterranean Avenue - 672.98684
+Community Chest - 674.1852
+Baltic Avenue - 673.41654
+Arctic Avenue - 673.208915
+Income Tax - 673.452415
+Reading Railroad - 672.9899
+Massachusetts Avenue - 672.371945
+Oriental Avenue - 673.517395
+Chance - 673.660255
+Gas Company - 673.177795
+Vermont Avenue - 673.12824
+Connecticut Avenue - 673.115255
+Jail - 903.82898
+Auction - 905.9714625
+Maryland Avenue - 905.7374425
+St. Charles Place - 905.0190675
+Electric Company - 903.28629
+States Avenue - 903.305345
+Virginia Avenue - 904.140115
+Pennsylvania Railroad - 903.8668
+St. James Place - 905.178055
+Community Chest - 904.46973
+Tennessee Avenue - 903.995815
+New York Avenue - 904.540125
+New Jersey Avenue - 904.234375
+Free Parking - 924.5913375
+Kentucky Avenue - 926.8686125
+Chance - 926.381875
+Indiana Avenue - 928.59895
+Illinois Avenue - 926.992125
+Michigan Avenue - 928.3811375
+Bus Ticket - 927.6113625
+B. & O. Railroad - 928.4719
+Atlantic Avenue - 927.6351125
+Community Chest - 392.299925
+Pennsylvania Avenue - 392.00756
+Short Line - 392.07245
+Chance - 392.07515
+Birthday Gift - 391.7379
+Florida Avenue - 391.84493
+Park Place - 392.45689
+Luxury Tax - 392.415095
+Boardwalk - 391.79175
+
+Dump as list:
+[673.148595, 672.98684, 674.1852, 673.41654, 673.208915, 673.452415, 672.9899, 672.371945, 673.517395, 673.660255, 673.177795, 673.12824, 673.115255, 903.82898, 905.9714625, 905.7374425, 905.0190675, 903.28629, 903.305345, 904.140115, 903.8668, 905.178055, 904.46973, 903.995815, 904.540125, 904.234375, 924.5913375, 926.8686125, 926.381875, 928.59895, 926.992125, 928.3811375, 927.6113625, 928.4719, 927.6351125, 927.363475, 928.934925, 927.3593375, 927.5390875, 391.84715, 391.53498, 391.5855, 392.18166, 392.299925, 392.00756, 392.07245, 392.07515, 391.7379, 391.84493, 392.45689, 392.415095, 391.79175]
